@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BattleMages</string>
+    <string name="menu_start_game">Start Game</string>
+    <string name="menu_quick_game">Customization</string>
+    <string name="menu_settings_game">Options</string>
+    <string name="menu_rules">Rules</string>
+    <string name="menu_exit">Exit</string>
+    <string name="back_button">Back</string>
+    <string name="nick">Default Nickname</string>
+</resources>

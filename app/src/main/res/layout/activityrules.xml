@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RulesActivity"
+    android:screenOrientation="landscape"
+    android:background="@drawable/view_with_background">
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/otherActivity"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:text="Rules"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/backb"
+        style="@style/otherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="9dp"
+        android:onClick="gotoMenu"
+        android:text="@string/back_button"
+        android:textAlignment="center" />
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_below="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp">
+
+    </ImageSwitcher>
+
+
+</RelativeLayout>

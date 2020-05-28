@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="landscape"
+    android:background="@drawable/menu_f"
+    android:theme="@android:style/ThemeOverlay.Material.Dark">
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/start"
+            style="@style/MenuFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="goTogames"
+            android:text="@string/menu_start_game"
+            />
+        <Button
+            android:id="@+id/Netgame"
+            style="@style/MenuFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="ToNet"
+            android:text="NetGame" />
+
+        <Button
+            android:id="@+id/quick"
+            style="@style/MenuFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="goToCustom"
+            android:text="@string/menu_quick_game" />
+
+
+        <Button
+            android:id="@+id/settings"
+            style="@style/MenuFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="goToOptions"
+            android:text="@string/menu_settings_game" />
+
+        <Button
+            android:id="@+id/rules"
+            style="@style/MenuFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="goToRules"
+            android:text="@string/menu_rules" />
+
+        <Button
+            android:id="@+id/exit"
+            style="@style/ExitFont"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="onBackPressed"
+            android:text="@string/menu_exit" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
